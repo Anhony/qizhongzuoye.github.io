@@ -1,0 +1,40 @@
+/* css reset */
+html,body,header,h1,h2{margin: 0px; padding: 0px;}
+ul{list-style:none;}
+/* task_1_2 css */
+body{ background: #DEDEDE; }
+.header{height: 70px; width: 100%; background: #333333; min-width: 540px;}/* 感谢 @曾大杰 童鞋的建议 */
+.div_logo{float: left; height: 70px; width: auto; }
+.logo{ height: 70px; width: auto;}
+.nav{ float: right; }
+.nav li{float: left; margin:10px;}
+.nav a{ color: #ffffff;}
+aside{font-weight: 700; font-size: 18px;}
+.article:after{content: "";display: block;clear: both;}
+.article div:nth-child(n){ float: left; margin-left: 20px;}
+.article1_img{width:140px; margin:0 auto; }
+.article_table{width: 100%; border-collapse:collapse; border: 1px solid #CCCCCC;}
+.article_table thead{background: #333333; color: #ffffff;}
+.article_table tfoot{background: #CCCCCC; color: #000000;}
+.section_form{ width: 100%; margin:0 auto; }
+.section_ul li{margin-top:10px; }
+.section_ul span{ width: 130px; height: 30px; text-align: right; display: inline-block;}
+.section_ul p{margin:0px 0px 0px 137px;text-align: left; font-size: 12px; color: #CECECE;}
+.texteara{ width: 200px; height: 100px;}
+.submit{ background: #00A7ED; border: none; width: 98%; height: 50px; margin: 10px 1%; border-radius: 25px; font-size: 16px; line-height: 50px; color: #ffffff;}
+.footer{ bottom: 0px; width: 100%;height: 50px; background: #333333;margin-top: 20px; text-align: center; color: #ffffff; line-height: 50px;}
+.fl{float: left;}
+
+@media screen and (min-width: 720px){/* 当浏览器宽度大于720px */
+		.article{ width:auto; margin-right: 460px; margin-left: 20px; margin-top: 20px; background: #ffffff; padding: 10px; min-width: 150px; box-shadow: 4px 4px 6px;}
+		.section{ zoom:1; position:absolute; right: 20px; top: 90px; width: 400px; background: #ffffff; padding: 10px;box-shadow: 4px 4px 6px;}
+		.section:after{content: ""; clear: both; display: block;}
+		.section_ul{ width: 380px; margin:0 auto; }
+}
+@media screen and ( max-width: 720px){/* 当浏览器宽度小于720px */
+		.article{ width: 95%; margin:20px auto 0px auto; background: #ffffff; padding: 1%;box-shadow: 4px 4px 6px;}
+		.section{ width: 400px; margin:20px auto 0px auto; background: #ffffff; padding: 1%;box-shadow: 4px 4px 6px;}
+		.section_ul{ width: 450px; margin:0 auto; }
+		
+		
+}

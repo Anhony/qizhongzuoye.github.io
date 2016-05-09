@@ -1,0 +1,12 @@
+/* css reset */
+body,html,div{margin: 0;padding: 0;}
+/* task_1_3 css */
+.team_box{ background: #eeeeee; margin: 20px;zoom:1;}
+.team_box:after { content: "";display: block;clear: both;}
+.team_name{ float: left; width: 198px; border: 1px solid #979797; margin: 20px;}
+.team_logo{float: left; width: 80px; height: 80px;  border: 1px solid #979797; margin: 20px;}
+.team_id{float: left;width: 55px; margin:20px 20px 20px 0;}
+.team_introduce{ position: absolute; background: #FFFFFF; left: 260px; right: 200px; top: 40px;  }
+.team_personal{ float: right; margin:20px;border: 1px solid #979797; padding:0 20px 20px 20px;}
+.team_personal img{ float: right; margin-top: 20px; clear: right; width: 100px; height: 100px;}
+.team_introduce p{margin:20px; text-indent: 2em;}
