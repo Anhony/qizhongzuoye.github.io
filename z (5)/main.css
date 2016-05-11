@@ -1,0 +1,122 @@
+body {
+    background: #212121;
+}
+
+
+/*导航条样式*/
+
+.main {
+    width: 1275px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.nav {
+    height: 55px;
+    line-height: 55px;
+    padding: 0 50px;
+}
+
+div.nav h1 {
+    float: left;
+    font-size: 22px;
+    font-family: 黑体;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+    padding-left: 55px;
+}
+
+div.nav ul {
+    float: right;
+    font-family: 微软雅黑;
+}
+
+div.nav ul li {
+    float: left;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+div.nav ul li a {
+    display: block;
+    text-align: center;
+    width: 100px;
+    color: #808388;
+    text-decoration: none;
+}
+
+div.nav ul a:hover {
+    color: red;
+    border-bottom: 4px red solid;
+}
+
+li.login {
+    background-image: url(img/user.png);
+    background-repeat: no-repeat;
+    background-position: 30px 5px;
+    padding-left: 25px;
+}
+
+div.nav ul .login a {
+    color: red;
+}
+
+
+/*导航条样式结束*/
+
+div.info {
+    height: 688px;
+    width: 1275px;
+    overflow: hidden;
+    background-image: url(img/info.png);
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.info div {
+    margin-left: 150px;
+    margin-top: 260px;
+}
+
+div.info h2 {
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+
+div.info p {
+    font-size: 20px;
+}
+
+p.go {
+    height: 65px;
+    width: 330px;
+    line-height: 65px;
+    background-color: #E8504F;
+    text-align: center;
+    margin-top: 65px;
+}
+
+
+/*公司理念介绍区域样式*/
+
+.slogan {
+    height: 250px;
+    padding: 40px 0;
+}
+
+.slogan .sblock {
+    width: 316px;
+    text-align: center;
+    float: left;
+}
+
+.sblock p {
+    margin-top: 36px;
+    padding: 5px 70px;
+    border-right: 2px #ededed solid;
+}
+
+div.sblock:last-child p {
+    border-right: none;
+}
