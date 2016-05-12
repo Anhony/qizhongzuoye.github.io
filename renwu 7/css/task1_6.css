@@ -1,0 +1,77 @@
+/* css reset */
+html,body,div,p,span,h1,h2,ul,li{margin: 0;padding: 0; }
+body{font-family: 微软雅黑;}
+ul{ list-style:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal; font-style:normal;}
+img{border:0px;}
+/* task_1_6 css */
+.header{width: 892px; height: 60px; border-bottom: 2px solid #938E8C; margin:0 auto; font-family: 黑体;}
+.header_logo{  display:block; width: 103px; height: 17px; background: #d45d5c; color: #FFFFFF; font-size: 9px; padding: 43px 0 0 7px;}
+.header_time{ float: right; margin-top: -17px; color: #d76864; font-size: 9px; }
+.section{ width:892px; height: auto; padding-top: 34px; margin:0 auto;}
+.big_img{ float: left; width: 601px; height: 301px; background:url("../images/big_img.png") no-repeat;}
+.img_l{ float: left; width:190px;height: 301px; background: rgba(66,140,89,0.5);}
+.img_r{ float: right; width:191px;height: 301px; background: rgba(212,93,18,0.5);}
+.RT_text{ width: 200px; float: right; border-top: 2px solid #cc8091;}
+.RT_text p:nth-child(1),.RT_text p:nth-child(2){ float: left; clear: left; font-size: 13px; font-weight: 700; border-bottom: 2px solid #000000; width: auto;}
+.RT_text p:nth-child(1):first-letter,.RT_text p:nth-child(2):first-letter{font-size: 20px;}
+.RT_text p:nth-child(3){float: left; clear: left; font-size: 12px; font-family: 楷体;}
+.RT_text p:nth-child(4){float: right; clear: left; font-size: 116px; color: #75b86b; font-weight: 600; font-style: italic;}
+.RT_text p:nth-child(5){ float: left; clear: left; font-size: 55px; color: #cc8091; }
+.RT_textR{ float: left; }
+.RT_textR span:nth-child(1){float: left; font-size:  21px;line-height: 21px; color: #cc8091; margin-top: 26px;}
+.RT_textR span:nth-child(2){ float: left; clear: left; font-size:  12px; line-height: 12px; border-bottom:none; color: #A0A0A0;}
+.text1{float: left; clear: left; width: 230px;}
+.text1 span{ text-decoration: underline;font-size: 16px; color: #418c59; font-weight: 700; }
+.text1 p{ margin-top: 10px; font-family: 宋体;font-size: 12px; line-height: 16px;color: #767777; }
+.text2{ float: left; width: 210px; margin-left: 10px;}
+.text2 span{text-decoration: underline;font-size: 16px; color: #d2994f; font-weight: 700;}
+.text2 p{margin-top: 10px; font-family: 宋体;font-size: 12px; color:#767777;line-height: 16px;}
+.text3{float: left; width: 200px; margin-left: 10px;}
+.text3 span{float: left;clear: left; }
+.text3 span:nth-child(1){text-decoration: underline;font-size: 16px; color: #cc7680; font-weight: 700;}
+.text3 span:nth-child(n+2){margin-top: 10px; font-family: 宋体;font-size: 12px; color:#767777;line-height: 16px;}
+.text3 span:nth-child(4){margin-bottom: 20px;}
+.text3 p{ float:left;clear:left;font-size: 12px; font-family: 微软雅黑; color: #000000; line-height:16px; opacity: 0.7; filter: alpha(opacity=70);}
+.text3 em{line-height: 16px;font-size: 12px;color: #cd4a48;font-family: 微软雅黑;opacity: 0.7; filter: alpha(opacity=70);}
+.article_text{float: left;clear: both; width: 417px;}
+h1 span{font-size: 72px; color: #f5e327;font-family: 黑体; font-weight: 700;font-style: italic;}
+h1{font-size: 42px; color: #11456b; font-family: 黑体; text-indent: 16px; font-weight: 700px;}
+.aside{font-size: 33px; color: #11456b; font-family: 黑体; font-weight: 700;}
+.article_txt p:nth-child(1):first-letter{color: #f5e327; font-size: 70px; line-height: 70px; float: left; clear: left; font-family: 微软雅黑; margin-right: 10px; }
+.article_txt{padding-top: 20px; border-top: 2px solid #0B3488; margin-top: 10px;}
+.article_txt p{font-size: 12px; color: #767777; font-family: 宋体; line-height: 16px;}
+.article_txt p:nth-child(n+2){text-indent: 2em;}
+.article_img{float: right; margin:10px 0 10px 10px;}
+.article_img:after{content: ""; display: block; clear: both;}
+
+.article_other{float: right;}
+.other_top{position: absolute; width: 458px; height: 257px; background: url(../images/task1_6_r.png) no-repeat;}
+.other_b{position: relative; top: 197px; background: #000000;height: 60px;width: 100%; opacity: 0.3; filter: alpha(opacity=30)}
+.other_top_text {position:absolute;bottom: 0px;}
+.other_top_text p{ height: 40px; border-left: 3px solid #72B16A; color: #ffffff; font-size: 26px; line-height: 40px; font-family: 微软雅黑; text-indent: 12px; margin: 8px 0 8px 38px;opacity: 1; filter: alpha(opacity=100);}
+.other_top_text span{ margin-left: 8px; font-size: 12px; font-family: 微软雅黑; font-style: italic; color: #72B16A; }
+.article_bottom{ position: relative;top: 257px;  width:460px ;float: right; margin-top: 30px;background:#EAF1CF; height: 318px;}
+
+
+.article_bottom li{float: left;width: 500px; white-space: nowrap; clear: left; text-indent: 7px; margin-left: 30px; line-height: 20px; color: #5a5b5b;font-family: 宋体; font-size: 16px; text-align: left;margin-top: 25px;}
+.triangle{ float:left; margin-left: 10px;margin-top: 5px; width: 0; height: 0; width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-bottom: 10px solid #12456B;}
+.article_bottom em{font-size: 12px; color: #5a5b5b; font-family: 宋体; text-align: right;;line-height: 20px;}
+.bottom1{position: absolute; bottom: 0px; width: 260px; height: 160px; background: #D45D5C;  }
+.bottom1_num{float: left; line-height: 110px; border-right: 2px solid #ffffff; color: #ffffff; font-family: 微软雅黑; font-size: 110px; height: 110px; margin-top:25px;}
+.bottom1_numEn{float: left; margin-left: 7px; font-size: 21px; line-height: 24px; font-family: 微软雅黑; font-style:italic;color: #ffffff;       }
+.bottom_marginTop{margin-top: 43px;}
+.bottom1 p{float: left; width: 150px; margin-left: 10px; font-size: 12px; color: #ffffff; font-family: 黑体;}
+.bottom2{position: absolute; bottom: 0;right: 0; width:198px;margin: 0 0 40px 0;} 
+.bottom2 p{ font-size: 14px; color: #5a5b5b; font-family: 黑体; font-style: italic; line-height: 16px; margin:7px 0 0 15px; text-indent: 3em; }
+.bottom2 em{width: 20px;height: 20px; font-style: normal; font-size: 72px; color:#d45d5c; font-family: 黑体; }
+.bottom2 em:nth-child(1){position: absolute;top: 18px; left: -23px;}
+.bottom2 em:nth-child(3){position: absolute; bottom: -30px; right: 32px;}
+.footer{ border-top: 1px solid #938e8c; height: 20px; margin-top: 20px;}
+.footer span{float: right; margin: 3px 0px 47px 0; font-size: 12px; color: #d45d5c; font-family: 黑体;}
+
+
+.article{margin-top: 65px;}
+.text{margin-top: 25px;}
+.banner,.text,.article,.footer{ float: left;clear: both;width: 100%; }
+.article_other:after{content: "";display: block;clear: both;}

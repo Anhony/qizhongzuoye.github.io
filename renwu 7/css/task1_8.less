@@ -1,0 +1,106 @@
+*{padding:0px; margin: 0px;box-sizing: border-box;}
+@media (min-width: 768px) {
+	.box{
+	@w4 : e("calc((100% - 20px * 4) / (3 * 4 / 4))");
+	@w3 : e("calc((100% - 20px * 4) / (3 * 4 / 3))");
+	@w6 : e("calc((100% - 20px * 4) / (3 * 4 / 6))");
+	@w3_1 : e("calc((100% - 20px * 6) / (1 + 1 + 2 + 2 + 6) * 1)");
+	@w3_2 : e("calc((100% - 20px * 6) / (1 + 1 + 2 + 2 + 6) * 2)");
+	@w3_6 : e("calc((100% - 20px * 6) / (1 + 1 + 2 + 2 + 6) * 6)");
+	float: left;
+	width: 100%;
+	& div{
+		float: left;
+		border: 1px solid #999;
+		height: 50px;
+		background: #eee;
+		margin: 20px 0 0 20px;
+		}
+	div:nth-child(1){
+		width: @w4;
+		}
+	div:nth-child(2){
+		width: @w4;
+		}
+	div:nth-child(3){
+		width: @w4;
+		}
+	div:nth-child(4){
+		width: @w3;
+		}
+	div:nth-child(5){
+		width: @w6;
+		}
+	div:nth-child(6){
+		width: @w3;
+		}
+	div:nth-child(7){
+		width: @w3_1;
+		}
+	div:nth-child(8){
+		width: @w3_1;
+		}
+	div:nth-child(9){
+		width: @w3_2;
+		}
+	div:nth-child(10){
+		width: @w3_2;
+		}
+	div:nth-child(11){
+		width: @w3_6;
+		}
+	} 
+}
+@media (max-width: 768px) {
+	.box{
+	@w1_6 : e("calc((100% - 20px * 3) / (6 + 6) * 6)");
+	@w2_12 : e("calc(100% - 20px * 2)");
+	@w3_3 : e("calc((100% - 20px * 4) / (3 + 6 + 3) * 3)");
+	@w3_6 : e("calc((100% - 20px * 4) / (3 + 6 + 3) * 6)");
+	@w4_2 : e("calc((100% - 20px * 4) / (2 + 2 + 8) * 2)");
+	@w4_8 : e("calc((100% - 20px * 4) / (2 + 2 + 8) * 8)");
+	@w5_3 : e("calc((100% / 2 - 20px * 3) / (3 + 3) * 3)");
+	float: left;
+	width: 100%;
+	& div{
+		float: left;
+		border: 1px solid #999;
+		height: 50px;
+		background: #eee;
+		margin: 20px 0 0 20px;
+		}
+	div:nth-child(1){
+		width: @w1_6;
+		}
+	div:nth-child(2){
+		width: @w1_6;
+		}
+	div:nth-child(3){
+		width: @w2_12;
+		}
+	div:nth-child(4){
+		width: @w3_3;
+		}
+	div:nth-child(5){
+		width: @w3_6;
+		}
+	div:nth-child(6){
+		width: @w3_3;
+		}
+	div:nth-child(7){
+		width: @w4_2;
+		}
+	div:nth-child(8){
+		width: @w4_2;
+		}
+	div:nth-child(9){
+		width: @w4_8;
+		}
+	div:nth-child(10){
+		width: @w5_3;
+		}
+	div:nth-child(11){
+		width: @w5_3;
+		}
+	} 
+}

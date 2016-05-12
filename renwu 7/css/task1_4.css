@@ -1,0 +1,6 @@
+/* css reset */
+html,body,div{ margin:0; padding: 0; }
+/* task_1_4 css */
+.box{width: 400px; height: 200px; border:none ; background:#CCCCCC; position:absolute; left: 50%; top: 50%; margin-left: -200px; margin-top: -100px; overflow: hidden;}
+.left_top{ width: 100px ; height: 100px ; border: none;border-radius: 50px; background: #FFCC00;position: absolute; left: -50px; top: -50px;}
+.right_bottom{ width: 100px ; height: 100px ; border: none;border-radius: 50px; background: #FFCC00; position: absolute; right: -50px; bottom: -50px;}
